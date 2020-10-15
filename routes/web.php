@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::any('index','IndexController@index');
+Route::any('login','IndexController@login');
+Route::any('register','IndexController@register');
+Route::any('login1','LoginController@index');
+Route::any('login2','LoginController@index1');
+

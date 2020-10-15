@@ -490,7 +490,7 @@
 					INSTANCE PROPERTIES/METHODS
 
 		- Any methods bound to the prototype are considered 
-		part of the plugin's `public` interface
+		part of the plugin's `layouts` interface
 
 		**************************************************/
 		Slider.prototype = {
@@ -674,7 +674,7 @@
 					
 						HELPERS
 
-			- Any method that is not part of the public interface.
+			- Any method that is not part of the layouts interface.
 			- Place it underneath this comment block and write its signature like so:
 
 			  					_fnName : function() {...}
